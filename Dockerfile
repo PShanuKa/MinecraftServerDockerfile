@@ -1,5 +1,5 @@
 # Java version එක තෝරාගන්න (Minecraft version එක අනුව මෙය වෙනස් වේ)
-FROM openjdk:17-slim
+FROM eclipse-temurin:17-jdk-jammy
 
 # සර්වර් එකට අවශ්‍ය folder එක හදන්න
 WORKDIR /minecraft
