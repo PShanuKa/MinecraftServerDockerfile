@@ -4,6 +4,8 @@ FROM eclipse-temurin:17-jdk-jammy
 # සර්වර් එකට අවශ්‍ය folder එක හදන්න
 WORKDIR /minecraft
 
+ENV ENV ONLINE_MODE=false
+
 # Minecraft Server jar එක download කරන්න (උදාහරණයක් ලෙස PaperMC)
 ADD https://api.papermc.io/v2/projects/paper/versions/1.20.1/builds/196/downloads/paper-1.20.1-196.jar server.jar
 
